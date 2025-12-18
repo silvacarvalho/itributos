@@ -1,0 +1,14 @@
+{
+	"servers": {
+		"postgres": {
+			"command": "npx",
+			"args": [
+				"@modelcontextprotocol/server-postgres@0.6.2",
+				"postgresql://postgres:postgres@localhost:5432/itributos"
+			],
+			"env": {},
+			"type": "stdio"
+		}
+	},
+	"inputs": []
+}
